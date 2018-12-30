@@ -11,7 +11,8 @@ var aktorzy_male = [
 "Maciej Stuhr",
 "Borys Szyc",
 "Zbigniew Zamachowski",
-"Rafał Królikowski"
+"Rafał Królikowski",
+"Michał Koterski"
 ];
 
 var aktorzy_female = [
@@ -247,7 +248,8 @@ var kto = [
 "dziadek",
 "chomik",
 "brat",
-"kuzyn"
+"kuzyn",
+"ex"
 ];
 
 var co_sie_dzieje = [
@@ -262,7 +264,10 @@ var co_sie_dzieje = [
 "okazuje się mieć zdolności paranormalne",
 "okazuje się mieć zdolności magiczne",
 "okazuje zdolność rozmawiania ze zwierzętami",
-"okazuje zdolność latania"
+"okazuje zdolność latania",
+"przechodzi na stronę zła",
+"dostaje misję uratowania wszechświata",
+"zostaje wystrzelony na marsa"
 ];
 
 var co_postanawia = [
@@ -274,7 +279,12 @@ var co_postanawia = [
 "wyjechać za granicę",
 "nauczyć się karate",
 "zostać mnichem tybetańskim",
-"wspiąć się na Mount Everest"];
+"wspiąć się na Mount Everest",
+"nauczyć się tańczyć",
+"skoczyć na bungee",
+"wyruszyć na podróż by go / ją odszukać",
+"się zemścić"
+];
 
 var ale_czy_co = [
 "ich związek przetrwa próbę czasu",
@@ -283,7 +293,9 @@ var ale_czy_co = [
 "meteory zniszczą ziemię",
 "Polacy dostaną się do Mistrzostw Świata",
 "walcząc z demonami dowiedzą się prawdy o sobie",
-"pokonają zło, jakie ciąży nad ziemią"];
+"pokonają zło, jakie ciąży nad ziemią",
+"nauczą się tego, co jest najważniejsze w życiu"
+];
 
 function losuj(tablica){
 	return tablica[Math.floor(Math.random()*tablica.length)];
@@ -311,4 +323,3 @@ function generuj(){
 	var zdanie = losuj(imiona_female) + " (" + losuj(aktorzy_female) + ") " + " pracuje jako " + losuj(zawod) + " i wiedzie szczęśliwe życie u boku " + odmien(losuj(imiona_male)) + " (" + losuj(aktorzy_male) + "), jednak gdy jej " + losuj(kto) + " " + losuj(co_sie_dzieje) + " postanawia " + losuj(co_postanawia) + ". Przy okazji poznaje " + odmien(losuj(imiona_male)) + " (" + losuj(aktorzy_male) + "). Ale czy " + losuj(ale_czy_co) + "?";
 	document.getElementById("gen").innerText = zdanie;
 }
-
