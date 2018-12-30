@@ -302,6 +302,7 @@ function odmien(imie){
 		return "Ignacego";
 	}else if(imie == "Francziszek"){
 		return "Franciszka";
+	}
 	else{
 		return imie + "a";
 	}
