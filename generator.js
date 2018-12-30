@@ -300,8 +300,7 @@ function odmien(imie){
 		return "Kacpra";
 	}else if(imie == "Ignacy"){
 		return "Ignacego";
-	}
-	else{
+	}else{
 		return imie + "a";
 	}
 }
