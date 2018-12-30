@@ -312,9 +312,3 @@ function generuj(){
 	document.getElementById("gen").innerText = zdanie;
 }
 
-function pobierz(kto){
-	switch(kto){
-		case 'aktorzy_male':
-		
-	}
-}
