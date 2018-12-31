@@ -267,7 +267,9 @@ var co_sie_dzieje = [
 "okazuje zdolność latania",
 "przechodzi na stronę zła",
 "dostaje misję uratowania wszechświata",
-"zostaje wystrzelony na marsa"
+"zostaje wystrzelony / wystrzelona na marsa",
+"zostaje wysłany na misję samobójczą",
+"trafia na wojownika z innego wymiaru",
 ];
 
 var co_postanawia = [
@@ -283,7 +285,10 @@ var co_postanawia = [
 "nauczyć się tańczyć",
 "skoczyć na bungee",
 "wyruszyć na podróż by go / ją odszukać",
-"się zemścić"
+"się zemścić",
+"znaleźć nową pracę",
+"adoptować zwierzaka",
+"spędzać więcej czasu z rodziną"
 ];
 
 var ale_czy_co = [
@@ -294,7 +299,7 @@ var ale_czy_co = [
 "Polacy dostaną się do Mistrzostw Świata",
 "walcząc z demonami dowiedzą się prawdy o sobie",
 "pokonają zło, jakie ciąży nad ziemią",
-"nauczą się tego, co jest najważniejsze w życiu"
+"Polska przetrwa atomową apokalipsę"
 ];
 
 function losuj(tablica){
