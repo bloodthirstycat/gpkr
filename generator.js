@@ -13,7 +13,14 @@ var aktorzy_male = [
 "Zbigniew Zamachowski",
 "Rafał Królikowski",
 "Michał Koterski",
-"Maciej Zakościelny"
+"Maciej Zakościelny",
+"Paweł Małaszyński",
+"Rafał Cieszyński",
+"Mateusz Damięcki",
+"Wojciech Solarz",
+"Jakub Wesołowski",
+"Rafał Rutkowski",
+"Piotr Głowacki"
 ];
 
 var aktorzy_female = [
@@ -29,7 +36,12 @@ var aktorzy_female = [
 "Anna Dereszowska",
 "Marta Żmuda Trzebiatowska",
 "Edyta Olszówka",
-"Małgorzata Socha"
+"Małgorzata Socha",
+"Katarzyna Zielińska",
+"Roma Gąsiorowska",
+"Izabela Kuna",
+"Olga Bołądź",
+"Agnieszka Więdłocha"
 ];
 
 var imiona_male = [
