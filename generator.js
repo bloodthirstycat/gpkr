@@ -12,7 +12,8 @@ var aktorzy_male = [
 "Borys Szyc",
 "Zbigniew Zamachowski",
 "Rafał Królikowski",
-"Michał Koterski"
+"Michał Koterski",
+"Maciej Zakościelny"
 ];
 
 var aktorzy_female = [
