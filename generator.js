@@ -280,7 +280,7 @@ var co_sie_dzieje = [
 "okazuje zdolność latania",
 "przechodzi na stronę zła",
 "dostaje misję uratowania wszechświata",
-"zostaje wystrzelony / wystrzelona na marsa",
+"zostaje wystrzelony / wystrzelona na Marsa",
 "zostaje wysłany na misję samobójczą",
 "trafia na wojownika z innego wymiaru",
 ];
