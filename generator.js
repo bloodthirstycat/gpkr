@@ -283,6 +283,9 @@ var co_sie_dzieje = [
 "zostaje wystrzelony / wystrzelona na Marsa",
 "zostaje wysłany na misję samobójczą",
 "trafia na wojownika z innego wymiaru",
+"zostaje wybrany na przywódce wszechświata",
+"dostaje pracę w warzywniaku",
+"występuje w polskim teleturnieju"
 ];
 
 var co_postanawia = [
@@ -301,7 +304,10 @@ var co_postanawia = [
 "się zemścić",
 "znaleźć nową pracę",
 "adoptować zwierzaka",
-"spędzać więcej czasu z rodziną"
+"spędzać więcej czasu z rodziną",
+"czekać na koniec świata",
+"posprzątać w domu",
+"iść z chomikiem na spacer"
 ];
 
 var ale_czy_co = [
@@ -312,7 +318,10 @@ var ale_czy_co = [
 "Polacy dostaną się do Mistrzostw Świata",
 "walcząc z demonami dowiedzą się prawdy o sobie",
 "pokonają zło, jakie ciąży nad ziemią",
-"Polska przetrwa atomową apokalipsę"
+"Polska przetrwa atomową apokalipsę",
+"będą żyli długo i szczęśliwie?",
+"w Krakowie przestanie być smog?",
+"ludzie dowiedzą się prawdy?"
 ];
 
 function losuj(tablica){
