@@ -350,3 +350,8 @@ function generuj(){
 	var zdanie = losuj(imiona_female) + " (" + losuj(aktorzy_female) + ") " + " pracuje jako " + losuj(zawod) + " i wiedzie szczęśliwe życie u boku " + odmien(losuj(imiona_male)) + " (" + losuj(aktorzy_male) + "), jednak gdy jej " + losuj(kto) + " " + losuj(co_sie_dzieje) + " postanawia " + losuj(co_postanawia) + ". Przy okazji poznaje " + odmien(losuj(imiona_male)) + " (" + losuj(aktorzy_male) + "). Ale czy " + losuj(ale_czy_co) + "?";
 	document.getElementById("gen").innerText = zdanie;
 }
+
+function dodaj(tab){
+	var odp = prompt(tab);
+	eval(tab).push(odp);
+}
