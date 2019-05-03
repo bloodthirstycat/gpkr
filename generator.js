@@ -149,6 +149,10 @@ var imiona_female = [
 
 var zawod = [
 "grafik",
+"producent paszy",
+"freelancer",
+"grabarz",
+"statysta",
 "pracownik biurowy",
 "specjalista ds. pr",
 "urzędnik państwowy",
@@ -252,6 +256,10 @@ var zawod = [
 
 var kto = [
 "ojciec",
+"kuzyn matki",
+"brat matki z drugiego małżeństwa",
+"kolega",
+"student",
 "matka",
 "koleżanka",
 "pies",
@@ -267,6 +275,15 @@ var kto = [
 
 var co_sie_dzieje = [
 "zdradza ją z jej najlepszą koleżanką",
+"kupuje masło",
+"inwestuje w fermę drobiu",
+"sprzedaje Bitcoina",
+"zostaje ugryziony / ugryziona przez zombie",
+"zapomina zmienić koła w samochodzie",
+"odnajduje złoto nazisów",
+"odnajduje złoty pociąg",
+"obniża podatki",
+"ginie przygnieciony przez fortepian",
 "ginie w wyniku eksplozji atomowej",
 "ginie potrącony / potrącona przez samochód",
 "ginie w niewyjaśnionych okolicznościach",
@@ -290,6 +307,11 @@ var co_sie_dzieje = [
 
 var co_postanawia = [
 "rzucić pracę",
+"pojechać w Bieszczady",
+"zostać Ninja",
+"kupić świnię",
+"zmienić wodę w akwarium",
+"uwolnić orkę",
 "poznać nowego faceta",
 "udać się do psychiatry",
 "nauczyć się czegoś nowego",
@@ -312,6 +334,10 @@ var co_postanawia = [
 
 var ale_czy_co = [
 "ich związek przetrwa próbę czasu",
+"wrócą do domu?",
+"wezmą Dodka na Mundial?",
+"wiemy dokąd nocą tupta jeż?",
+"delta będzie nieujemna?",
 "Warszawa obroni się przed hordą zmutowanych zombie",
 "wyborcy zagłosują na zmiennokształtnego jaszczura w ciele człowieka",
 "meteory zniszczą ziemię",
